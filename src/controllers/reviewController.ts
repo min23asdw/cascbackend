@@ -7,7 +7,7 @@ export const getReviewsByUniversity = async (req: Request, res: Response) => {
   try {
     const reviews = await Review.find({ university_id });
     if (reviews.length === 0) {
-      return res.status(404).json({ message: 'No reviews' });
+      return res.status(200).json([]);
     }
     res.json(reviews);
   } catch (error) {
