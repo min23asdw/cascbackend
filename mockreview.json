@@ -1,0 +1,30 @@
+[
+    {
+      "_id": "66b0414502ef8f0b3622dbf3",
+      "desc": "wff",
+      "star": 0,
+      "university_id": "66b0416302ef8f0b3622dbf4",
+      "verified": true
+    },
+    {
+      "_id": "66b0414502ef8f0b3622dbf5",
+      "desc": "Great university!",
+      "star": 4.5,
+      "university_id": "66b0416302ef8f0b3622dbf4",
+      "verified": true
+    },
+    {
+      "_id": "66b0414502ef8f0b3622dbf6",
+      "desc": "Not satisfied with the course quality.",
+      "star": 2.0,
+      "university_id": "66b0416302ef8f0b3622dbf5",
+      "verified": false
+    },
+    {
+      "_id": "66b0414502ef8f0b3622dbf7",
+      "desc": "Excellent experience overall.",
+      "star": 5.0,
+      "university_id": "66b0416302ef8f0b3622dbf6",
+      "verified": true
+    }
+  ]
